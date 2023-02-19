@@ -1,0 +1,115 @@
+p {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.signup-form {
+  width: 480px;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 2px 4px 8px #6b728040;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 48px;
+}
+
+.header h1 {
+  font-weight: bolder;
+  font-size: 28px;
+  color: #6366f1;
+}
+
+.input {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.input input {
+  width: 100%;
+  border: none;
+  padding: 8px 40px;
+  border-radius: 4px;
+  background-color: #f3f4f6;
+  color: #1f2937;
+  font-size: 16px;
+}
+
+.input input::placeholder {
+  color: #6b7280;
+}
+
+.input i {
+  top: 50%;
+  width: 36px;
+  position: absolute;
+  transform: translateY(-50%);
+  color: #6b7280;
+  font-size: 16px;
+}
+
+.signup-btn {
+  width: 100%;
+  border: none;
+  padding: 8px 0;
+  margin: 24px 0;
+  border-radius: 4px;
+  background-color: #6366f1;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-btn:active {
+  background-color: #4f46e5;
+  transition: all 0.3s ease;
+}
+
+.social-icons i {
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  border-radius: 50%;
+  margin: 24px 8px 48px 8px;
+  background-color: gray;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+a {
+  color: #6366f1;
+  text-decoration: none;
+}
+
+.password-strength-indicator {
+  font-size: 16px;
+  display: inline-block;
+  height: 25px;
+  min-width: 30%;
+  text-align: center;
+  transition: 1s;
+  color: #fff;
+}
+.password-strength-indicator.very-weak {
+  background: #cf0000;
+  width: 30%;
+}
+.password-strength-indicator.weak {
+  background: #f6891f;
+  width: 50%;
+}
+.password-strength-indicator.mediocre {
+  background: #eeee00;
+  width: 70%;
+}
+.password-strength-indicator.strong {
+  background: #99ff33;
+  width: 90%;
+}
+.password-strength-indicator.very-strong {
+  background: #22cf00;
+  width: 100%;
+}
